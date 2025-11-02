@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/NXTWAVE-HACKTHAON/static/css/main.ca964496.css",
-    "main.js": "/NXTWAVE-HACKTHAON/static/js/main.28dadec6.js",
+    "main.js": "/NXTWAVE-HACKTHAON/static/js/main.62af6002.js",
     "static/media/herovideo.webm": "/NXTWAVE-HACKTHAON/static/media/herovideo.172dbd9517939feff60d.webm",
     "static/media/home2.jpg": "/NXTWAVE-HACKTHAON/static/media/home2.4bc87b5fa80d500739fd.jpg",
     "static/media/pots.jpg": "/NXTWAVE-HACKTHAON/static/media/pots.6aa3bc19d3e2bb7cadc8.jpg",
@@ -10,10 +10,10 @@
     "static/media/bangles.jpg": "/NXTWAVE-HACKTHAON/static/media/bangles.32970a1dbca7ae4ab922.jpg",
     "index.html": "/NXTWAVE-HACKTHAON/index.html",
     "main.ca964496.css.map": "/NXTWAVE-HACKTHAON/static/css/main.ca964496.css.map",
-    "main.28dadec6.js.map": "/NXTWAVE-HACKTHAON/static/js/main.28dadec6.js.map"
+    "main.62af6002.js.map": "/NXTWAVE-HACKTHAON/static/js/main.62af6002.js.map"
   },
   "entrypoints": [
     "static/css/main.ca964496.css",
-    "static/js/main.28dadec6.js"
+    "static/js/main.62af6002.js"
   ]
 }
