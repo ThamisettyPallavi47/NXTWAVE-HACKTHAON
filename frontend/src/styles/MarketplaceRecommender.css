@@ -1,0 +1,123 @@
+/* 🪔 Artisan-Themed Marketplace Recommender Styles */
+
+.marketplace-container {
+  max-width: 850px;
+  margin: 60px auto;
+  padding: 32px;
+  background-color: #fffaf3; /* warm beige background */
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(100, 64, 22, 0.1);
+  font-family: "Poppins", sans-serif;
+  border: 1px solid #f0e3ce;
+  animation: fadeIn 0.5s ease-out;
+}
+
+.marketplace-container h2 {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 24px;
+  color: #5b3b09;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.05);
+}
+
+/* 🧵 Input Fields */
+.input-field {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 14px;
+  border: 1px solid #d4b483;
+  border-radius: 10px;
+  font-size: 15px;
+  background-color: #fffdf7;
+  transition: all 0.25s ease;
+}
+
+.input-field:focus {
+  border-color: #a6752a;
+  box-shadow: 0 0 5px rgba(166, 117, 42, 0.3);
+  outline: none;
+}
+
+/* 🧡 Recommend Button */
+.recommend-btn {
+  width: auto;
+  min-width: 220px;
+  background: linear-gradient(90deg, #b86b09, #d58c34);
+  color: #fff;
+  padding: 10px 18px;
+  margin: 10px auto;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: 0.4px;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.recommend-btn:hover {
+  background: linear-gradient(90deg, #d58c34, #a85b00);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(184, 134, 11, 0.3);
+}
+
+/* ⚠️ Error Message */
+.error-text {
+  color: #b02a1e;
+  text-align: center;
+  margin-bottom: 14px;
+  font-weight: 500;
+}
+
+/* 🧺 Recommendation Results */
+.recommendation-box {
+  margin-top: 24px;
+  padding: 20px;
+  border: 1px solid #f0e3ce;
+  border-radius: 12px;
+  background-color: #fff9ef;
+  box-shadow: 0 2px 5px rgba(100, 64, 22, 0.05);
+}
+
+.recommendation-box h3 {
+  color: #7c4a0e;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.recommendation-box ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.recommendation-box li {
+  background-color: #fff6e9;
+  margin-bottom: 8px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #f0e3ce;
+  color: #4d3310;
+  font-size: 15px;
+}
+
+/* 🛍️ Links to Products */
+.recommendation-box a {
+  color: #a35b00;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.recommendation-box a:hover {
+  color: #7c4a0e;
+  text-decoration: underline;
+}
+
+/* ✨ Subtle fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

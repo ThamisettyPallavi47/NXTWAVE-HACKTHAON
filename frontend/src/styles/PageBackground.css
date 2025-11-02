@@ -1,0 +1,22 @@
+.page-background {
+  min-height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background 0.3s ease-in-out;
+}
+
+/* 🧍 Customer background */
+.customer-bg {
+  background: linear-gradient(135deg, #f3f4f6, #e0f2fe);
+  /* OR use your own image */
+  /* background-image: url("/images/customer-bg.jpg"); */
+}
+
+/* 🧵 Local Artisan (Admin) background */
+.admin-bg {
+  background: linear-gradient(135deg, #fef3c7, #fde68a);
+  /* OR use your own image */
+  /* background-image: url("/images/artisan-bg.jpg"); */
+}

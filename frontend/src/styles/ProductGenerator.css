@@ -1,0 +1,169 @@
+/* 🌿 Artisan-Themed Product Generator Styles */
+
+.product-generator-container {
+  max-width: 850px;
+  margin: 60px auto;
+  padding: 32px;
+  background-color: #fffaf3; /* warm beige background */
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(100, 64, 22, 0.1);
+  font-family: "Poppins", sans-serif;
+  border: 1px solid #f0e3ce;
+}
+
+.product-generator-container h2 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #5b3b09; /* earthy brown */
+  margin-bottom: 24px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.05);
+}
+
+.product-generator-container input,
+.product-generator-container select {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 14px;
+  border: 1px solid #d4b483;
+  border-radius: 10px;
+  font-size: 15px;
+  background-color: #fffdf7;
+  transition: all 0.25s ease;
+}
+
+.product-generator-container input:focus,
+.product-generator-container select:focus {
+  border-color: #a6752a;
+  box-shadow: 0 0 5px rgba(166, 117, 42, 0.3);
+  outline: none;
+}
+
+
+ .generate-btn {
+  width: auto; /* not full width */
+  min-width: 220px;
+  background: linear-gradient(90deg, #b8860b, #c98b3c);
+  color: #fff;
+  padding: 10px 18px;
+  margin: 10px auto; /* center horizontally */
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: 0.4px;
+  display: block; /* centers button */
+  transition: all 0.3s ease;
+}
+
+
+.generate-btn:hover {
+  background: linear-gradient(90deg, #c98b3c, #a87300);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(184, 134, 11, 0.3);
+}
+
+
+/* --- Result & Card Sections --- */
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.product-generator-container .border {
+  border: 1px solid #f0e3ce;
+}
+
+.product-generator-container .rounded {
+  border-radius: 12px;
+}
+
+.product-generator-container .bg-gray-100,
+.product-generator-container .bg-gray-50,
+.product-generator-container .bg-yellow-50 {
+  background-color: #fff9ef;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(100, 64, 22, 0.05);
+}
+
+.product-generator-container h3,
+.product-generator-container h4 {
+  color: #7c4a0e;
+  margin-bottom: 6px;
+}
+
+/* 🪔 Image Section */
+.product-generator-container img {
+  max-width: 100%;
+  margin-top: 12px;
+  border-radius: 10px;
+  border: 2px solid #e2c497;
+  box-shadow: 0 3px 8px rgba(165, 104, 20, 0.15);
+}
+
+/* 📱 Social Buttons */
+.bg-pink-500, .bg-blue-600, .bg-green-500 {
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.25s ease;
+}
+
+.bg-pink-500:hover { background-color: #c44585; transform: scale(1.03); }
+.bg-blue-600:hover { background-color: #295bb8; transform: scale(1.03); }
+.bg-green-500:hover { background-color: #20844c; transform: scale(1.03); }
+
+/* 🧵 Prediction List */
+.product-generator-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 8px;
+}
+
+.product-generator-container li {
+  background-color: #fff6e9;
+  margin-bottom: 6px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  color: #4d3310;
+  font-size: 15px;
+  border: 1px solid #f0e3ce;
+}
+
+/* 🪔 Subtle fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.product-generator-container {
+  animation: fadeIn 0.5s ease-out;
+}
+
+
+/* ✨ Centered medium-width artisan buttons */
+.product-generator-container .generate-btn {
+  display: block;
+  width: 260px;
+  margin: 12px auto;
+  padding: 10px 16px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 8px;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(90deg, #b8860b, #c98b3c);
+  transition: all 0.3s ease;
+}
+
+.product-generator-container .generate-btn:hover {
+  background: linear-gradient(90deg, #c98b3c, #a87300);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(184, 134, 11, 0.3);
+}
+
+/* Spacing between the stacked buttons */
+.product-generator-container .generate-btn + .generate-btn {
+  margin-top: 10px;
+}

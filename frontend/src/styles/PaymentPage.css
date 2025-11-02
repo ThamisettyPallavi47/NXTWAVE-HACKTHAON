@@ -1,0 +1,76 @@
+.payment-container {
+  text-align: center;
+  margin-top: 120px;
+  background-color: #f7f9fc;
+  padding: 40px;
+  border-radius: 12px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.payment-container h2 {
+  color: #0071a4;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.payment-container p {
+  color: #444;
+  font-size: 1rem;
+}
+.payment-container {
+  text-align: center;
+  margin-top: 100px;
+  font-family: Arial, sans-serif;
+}
+.payment-container h2 {
+  color: #333;
+}
+.payment-container p {
+  color: #666;
+}
+
+/* src/styles/PaymentPage.css */
+.payment-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  background-color: #fffaf3;
+  font-family: "Poppins", sans-serif;
+}
+
+.payment-container h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.payment-container p {
+  color: #666;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.pay-button {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.pay-button:hover {
+  background-color: #e65c00;
+  transform: scale(1.05);
+}
+
+.pay-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

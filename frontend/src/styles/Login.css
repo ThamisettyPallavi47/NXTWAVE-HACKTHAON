@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+
+/* Only for login page */
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: url("C:/Users/palla/OneDrive/Desktop/assistant/frontend/public/artisian.jpg") no-repeat center center fixed; */
+  background-color:#5e9775;
+  background-size: cover;
+  position: relative;
+}
+
+.login-page::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(244, 237, 225, 0.7);  */
+  z-index: 0;
+}
+
+/* container and card */
+.auth-container {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.auth-card {
+  background-color: rgba(255, 248, 240, 0.95);
+  padding: 2rem;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  border: 1px solid #e3c9a6;
+  text-align: center;
+  position: relative;
+}
+
+/* Logo */
+.logo-section h1 {
+  font-size: 28px;
+  color: #8b5e3c;
+  margin: 0;
+}
+.logo-section p {
+  margin: 5px 0 20px;
+  font-size: 14px;
+  color: #5c3d1e;
+  font-style: italic;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1.5rem;
+}
+.tabs button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background: transparent;
+  font-weight: 700;
+  color: #8b5e3c;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 16px;
+}
+.tabs button.active {
+  border-bottom: 3px solid #d08b4f;
+  color: #5c3d1e;
+}
+
+/* Form */
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.auth-form input,
+.auth-form select {
+  padding: 12px;
+  border: 1px solid #d4b78f;
+  border-radius: 8px;
+  background-color: #fff3e6;
+  outline: none;
+  font-size: 14px;
+}
+.auth-form input:focus,
+.auth-form select:focus {
+  border-color: #d08b4f;
+}
+
+/* Button */
+.auth-btn {
+  background-color: #8b5e3c;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+.auth-btn:hover {
+  background-color: #5c3d1e;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .auth-card {
+    padding: 1.5rem;
+    width: 95%;
+  }
+  .tabs button {
+    font-size: 14px;
+  }
+  .logo-section h1 {
+    font-size: 24px;
+  }
+}

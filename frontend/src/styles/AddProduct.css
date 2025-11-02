@@ -1,0 +1,75 @@
+/* 🪔 Artisan-Themed Add Product Page */
+.add-product-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 32px;
+  background-color: #fffaf3; /* warm beige tone */
+  border-radius: 16px;
+  border: 1px solid #f0e3ce;
+  box-shadow: 0 6px 16px rgba(100, 64, 22, 0.1);
+  font-family: "Poppins", sans-serif;
+  animation: fadeIn 0.4s ease-out;
+}
+
+.add-product-container h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #5b3b09;
+  letter-spacing: 0.5px;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.05);
+}
+
+/* 🧵 Input Fields */
+.input-field {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 14px;
+  border: 1px solid #d4b483;
+  border-radius: 10px;
+  font-size: 15px;
+  background-color: #fffdf7;
+  transition: all 0.25s ease;
+}
+
+.input-field:focus {
+  border-color: #a6752a;
+  box-shadow: 0 0 5px rgba(166, 117, 42, 0.3);
+  outline: none;
+}
+
+/* 🧡 Submit Button */
+.submit-btn {
+  width: 100%;
+  padding: 12px 0;
+  background: linear-gradient(90deg, #b86b09, #d58c34);
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  letter-spacing: 0.4px;
+  transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: linear-gradient(90deg, #d58c34, #a85b00);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(184, 134, 11, 0.3);
+}
+
+/* 🌿 Success Message */
+.message {
+  text-align: center;
+  margin-top: 14px;
+  color: #2e7d32; /* deep green */
+  font-weight: 500;
+}
+
+/* ✨ Fade-in Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

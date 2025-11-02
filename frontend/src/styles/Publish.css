@@ -1,0 +1,163 @@
+/* 🪔 Artisan-Themed Publish Section */
+.publish-container {
+  max-width: 550px;
+  margin: 50px auto;
+  padding: 28px;
+  background-color: #fffaf3; /* warm beige background */
+  border-radius: 14px;
+  border: 1px solid #f0e3ce;
+  box-shadow: 0 6px 16px rgba(100, 64, 22, 0.1);
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  animation: fadeIn 0.4s ease-out;
+}
+
+.publish-container h3 {
+  margin-bottom: 12px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #5b3b09;
+  letter-spacing: 0.5px;
+}
+
+.publish-container p {
+  margin-bottom: 18px;
+  color: #6b4b1f;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/* 🧡 Publish Button (artisan style) */
+.publish-btn {
+  padding: 10px 20px;
+  background: linear-gradient(90deg, #b86b09, #d58c34);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  letter-spacing: 0.3px;
+  transition: all 0.3s ease;
+}
+
+.publish-btn:hover {
+  background: linear-gradient(90deg, #d58c34, #a85b00);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(184, 134, 11, 0.3);
+  opacity: 0.95;
+}
+
+/* ✨ Subtle fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+/* 🌾 Artisan Publish / Social Page */
+
+.publish-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fffaf3;
+  border-radius: 16px;
+  box-shadow: 0 6px 14px rgba(100, 64, 22, 0.1);
+  font-family: "Poppins", sans-serif;
+  border: 1px solid #f0e3ce;
+  text-align: center;
+  animation: fadeIn 0.5s ease-out;
+}
+
+.publish-container h3 {
+  color: #5b3b09;
+  font-size: 26px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.publish-container p {
+  color: #6b4b1e;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 70%;
+  padding: 10px 12px;
+  border: 1px solid #d4b483;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  background-color: #fffdf7;
+}
+
+.search-btn {
+  background: linear-gradient(90deg, #b86b09, #d58c34);
+  color: white;
+  padding: 10px 18px;
+  margin-left: 8px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.search-btn:hover {
+  background: linear-gradient(90deg, #d58c34, #a85b00);
+}
+
+.product-preview {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.product-preview img {
+  width: 220px;
+  height: 220px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.product-preview h4 {
+  color: #5b3b09;
+  margin-bottom: 6px;
+}
+
+.share-btn {
+  background: linear-gradient(90deg, #128c7e, #25d366);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+.share-btn:hover {
+  background: linear-gradient(90deg, #25d366, #128c7e);
+  transform: scale(1.03);
+}
+
+.manual-add {
+  margin-top: 30px;
+  background-color: #fff6e9;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #f0e3ce;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,187 @@
+.product-details-page {
+  padding: 40px;
+  background: linear-gradient(to bottom, #d7f2df, #a8e0c4);
+  min-height: 630px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-details-card {
+  display: flex;
+  gap: 30px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 850px;
+  width: 100%;
+  
+  position: relative;
+}
+
+.product-details-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.product-details-info {
+  flex: 1;
+}
+
+.product-details-info h2 {
+  color: #2b5d3e;
+  margin-bottom: 15px;
+}
+
+.product-details-info .description {
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+/* Edit and Delete buttons */
+.icon-btn {
+  position: absolute;
+  top: 15px;
+  font-size: 22px;
+  cursor: pointer;
+  background: #f7f7f7;
+  border-radius: 50%;
+  padding: 6px;
+  transition: 0.2s;
+}
+
+.icon-btn:hover {
+  background: #007bff;
+  color: #fff;
+}
+
+.icon-btn.delete {
+  left: 15px;
+}
+
+.icon-btn.edit {
+  right: 15px;
+}
+
+/* Editing form inputs */
+.edit-input,
+.edit-textarea {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+.save-btn {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.save-btn:hover {
+  background: #218838;
+}
+
+/* Dialog overlay */
+.dialog-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.dialog-box {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+  width: 350px;
+}
+
+.dialog-actions {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.dialog-btn {
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
+}
+
+.dialog-btn.confirm {
+  background: #007bff;
+  color: white;
+}
+
+.dialog-btn.cancel {
+  background: #ccc;
+}
+
+.dialog-btn.delete {
+  background: #e63946;
+  color: white;
+}
+
+
+
+.message-box {
+  margin: 15px auto;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px 15px;
+  border-radius: 8px;
+  width: fit-content;
+  transition: opacity 0.3s ease-in-out;
+  animation: fadeInOut 3s ease forwards;
+}
+
+.message-box.success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.message-box.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  15% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+}

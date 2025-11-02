@@ -1,0 +1,86 @@
+.product-details {
+  background-color: #5e9775;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 1s ease-in-out;
+  font-family: "Poppins", sans-serif;
+  padding: 60px 10%;
+}
+
+.details-container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  background-color: #81ad85;
+  border-radius: 12px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  max-width: 1000px;
+  width: 100%;
+  transition: transform 0.4s ease;
+}
+
+.details-container:hover {
+  transform: translateY(-5px);
+}
+
+.details-image img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.details-text {
+  flex: 1;
+}
+
+.details-text h2 {
+  font-size: 2rem;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.details-text p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.back-btn {
+  background-color: #f4b41a;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.back-btn:hover {
+  background-color: #e09e00;
+  transform: scale(1.05);
+}
+
+/* Not Found */
+.not-found {
+  text-align: center;
+  padding: 100px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

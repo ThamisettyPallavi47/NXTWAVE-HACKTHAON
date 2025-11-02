@@ -1,0 +1,254 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 10px 30px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Logo */
+.navbar-logo .logo-text {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #e91e63;
+}
+
+/* Links */
+.navbar-links {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  margin-left: 40px;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar-links li a:hover {
+  color: #e91e63;
+}
+
+/* Right-side icons */
+.navbar-icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 18px;
+  margin-left: auto;
+}
+
+.icon {
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s, transform 0.2s;
+}
+
+.icon:hover {
+  color: #e91e63;
+  transform: scale(1.1);
+}
+
+/* Search container above navbar */
+.search-container {
+  background: #fff;
+  padding: 12px 30px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1100;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar {
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  padding: 8px 15px;
+  font-size: 1rem;
+  outline: none;
+  width: 350px;
+  transition: all 0.3s ease;
+}
+
+.search-bar:focus {
+  border-color: #e91e63;
+  width: 400px;
+}
+
+/* Mobile responsiveness */
+.menu-toggle {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .navbar-links {
+    display: none;
+  }
+
+  .navbar-links.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background: white;
+    width: 100%;
+    text-align: center;
+    gap: 15px;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .navbar-icons {
+    gap: 12px;
+  }
+
+  .search-bar {
+    width: 250px;
+  }
+}
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  overflow: hidden; /* fix icon cutoff issue */
+}
+
+/* Logo */
+.navbar-logo .logo-text {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #e91e63;
+  white-space: nowrap;
+}
+
+/* Links */
+.navbar-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  flex-wrap: nowrap;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar-links li a:hover {
+  color: #e91e63;
+}
+
+/* Right-side icons */
+.navbar-icons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-left: 20px;
+  flex-shrink: 0;
+}
+
+.icon {
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s, transform 0.2s;
+}
+
+.icon:hover {
+  color: #e91e63;
+  transform: scale(1.1);
+}
+
+/* Search container */
+.search-container {
+  background: #fff;
+  padding: 12px 30px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1100;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar {
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  padding: 8px 15px;
+  font-size: 1rem;
+  outline: none;
+  width: 350px;
+  transition: all 0.3s ease;
+}
+
+.search-bar:focus {
+  border-color: #e91e63;
+  width: 400px;
+}
+
+/* Mobile responsiveness */
+.menu-toggle {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .navbar-links {
+    display: none;
+  }
+
+  .navbar-links.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background: white;
+    width: 100%;
+    text-align: center;
+    gap: 15px;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .navbar-icons {
+    gap: 12px;
+  }
+
+  .search-bar {
+    width: 250px;
+  }
+}
