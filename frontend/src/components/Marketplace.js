@@ -22,7 +22,7 @@ export default function Marketplace() {
   const user = getUser();
   const navigate = useNavigate();
 
-  // ✅ Logout
+
   // const handleLogout = () => {
   //   logout();
   //   window.location.href = '/';
